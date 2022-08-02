@@ -121,8 +121,8 @@
                             <div class="thumb">
                                 <div class="price">
                                     <span>
-                                        <text style="text-decoration:line-through;margin-right: 10px;">IDR 7.000 K</text><br>
-                                        <text style="margin-left: 10px;">IDR 3.500 K</text>
+                                        <text style="text-decoration:line-through;margin-right: 10px;"><?= $reguler_course_fee ?></text><br>
+                                        <text style="margin-left: 10px;"><?= $reguler_course_fee_promo ?></text>
                                     </span>
                                 </div>
                                 <a href="<?= base_url('courses/reguler') ?>"><img src="<?= $assets . 'vendor/templatemo_edu_meeting/' ?>assets/images/meeting-01.jpg" alt="New Lecturer Meeting"></a>
@@ -277,7 +277,7 @@ $pengajar = [
     ],
     [
         'img'   => 'august.jpg',
-        'name'  => 'August F Sebastian Pangaribuan',
+        'name'  => 'August F Sebastian P',
         'as'    => '<p class="w3-opacity w3-center">Praktisi Kepabeanan, Ekspor & Impor</p>',
         'description'    => '<p style="min-height: 270px;">Lulusan Kampus STAN dengan predikat Cumlaude. Berpengalaman bekerja di Direktorat Jenderal Bea dan Cukai sebagai Auditor dan saat ini bekerja di salah satu perusahaan swasta ternama di Indonesia. Berpengalaman dan aktif mengajar kepabeanan dan juga sebagai pelaku ekspor. Memiliki spesialisasi di audit kepabeanan.</p>'
     ]
@@ -358,8 +358,8 @@ $pengajar = [
                 </div>
             </div>
             <div class="col-lg-6 align-self-center">
-                <div class="video">
-                    <a href="https://www.youtube.com/watch?v=HndV87XpkWg" target="_blank">
+                <div class="video" style="background-image: url(<?= $assets . "sei/img/video-item-bg.png" ?>);">
+                    <a href="https://youtu.be/Cju4R76HFuk" target="_blank">
                         <img src="<?= $assets . 'vendor/templatemo_edu_meeting/' ?>assets/images/play-icon.png" alt="">
                     </a>
                 </div>
@@ -409,11 +409,11 @@ $pengajar = [
                     <ul>
                         <li>
                             <h6>Whatsapp</h6>
-                            <span><?= $whatsapp_ ?></span>
+                            <a href="https://api.whatsapp.com/send/?phone=<?= $whatsapp ?>" target="_blank"><span><?= $whatsapp_ ?></span></a>
                         </li>
                         <li>
                             <h6>Email</h6>
-                            <span><?= $email ?></span>
+                            <a href="mailto:<?= $email ?>"><span><?= $email ?></span></a>
                         </li>
                         <li>
                             <h6></h6>

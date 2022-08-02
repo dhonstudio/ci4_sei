@@ -15,8 +15,13 @@ class Home extends BaseController
 
     public function index()
     {
-        $this->data['testimonials'] = $this->dhonrequest->get('testimonial/getall')['data'];;
+        $this->data['testimonials'] = $this->dhonrequest->get('testimonial/getall')['data'];
 
         return view('home', $this->data);
+    }
+
+    public function course_reguler()
+    {
+        return view('course/reguler', $this->data);
     }
 }

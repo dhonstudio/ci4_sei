@@ -1,9 +1,9 @@
 <div class="footer">
     <div class="w3-xlarge w3-section social">
-        <a href="https://instagram.com/<?= $instagram ?>" target="_blank" class="text-white"><i class="fab fa-instagram"></i></a>
-        <a href="https://t.me/<?= $telegramgroup ?>" target="_blank" class="text-white"><i class="fab fa-telegram"></i></a>
+        <a href="<?= $instagram ?>" target="_blank" class="text-white"><i class="fab fa-instagram"></i></a>
+        <a href="<?= $telegramgroup ?>" target="_blank" class="text-white"><i class="fab fa-telegram"></i></a>
         <a href="https://api.whatsapp.com/send/?phone=<?= $whatsapp ?>" target="_blank" class="text-white"><i class="fab fa-whatsapp"></i></a>
-        <a href="https://t.me/<?= $telegram ?>" target="_blank" class="text-white"><i class="fab fa-telegram"></i></a>
+        <a href="<?= $telegram ?>" target="_blank" class="text-white"><i class="fab fa-telegram"></i></a>
     </div>
 
     <p>

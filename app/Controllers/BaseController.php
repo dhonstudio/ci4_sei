@@ -117,24 +117,33 @@ abstract class BaseController extends Controller
         $this->data = [
             'lang'      => null, // default is `en`
             'meta'      => [
-                'keywords'      => 'dhon studio, dhonstudio, dhonstudio.com',
-                'author'        => null,
+                'keywords'      => 'sekolah ekspor impor, sei, dhon studio, dhonstudio, dhonstudio.com',
+                'author'        => 'TemplateMo',
                 'generator'     => null,
-                'ogimage'       => $this->assets . 'img/ogimg.jpg',
-                'description'   => 'This landing page built base on Dhon Studio repository on Github.',
+                'ogimage'       => $this->assets . 'sei/img/ogimg.jpg',
+                'description'   => 'Sekolah Ekspor Impor adalah Platform Pendidikan dan Pelatihan peraturan dan prosedur Impor, Ekspor, Logistik, dan Kepabeanan di Indonesia. Menyelenggarakan Training Persiapan Ujian Negara Ahli Kepabeanan dan Webinar. Sejak tahun 2021 senantiasa memberikan yang terbaik dengan mengedepankan kualitas layanan dan kepuasan para peserta dan pengguna layanan.',
             ],
-            'favicon'   => $this->assets . "img/icon.ico",
-            'title'     => 'My Landing Page by Dhon Studio', // default is `Home`
+            'favicon'   => $this->assets . "sei/img/ogimg.jpg",
+            'title'     => 'Sekolah Ekspor Impor', // default is `Home`
 
-            'email'         => 'admin@dhonstudio.com',
-            'whatsapp'      => '62 877 00 8899 13',
-            'whatsapp_'     => '',
-            'whatsapp_link' => 'https://wa.me/6287700889913',
+            'email'         => 'admin@sekolaheksporimpor.id',
+            'whatsapp'      => '6282147674761',
+            'whatsapp_'     => '62821-476-74-761',
+            'whatsapp_link' => 'https://wa.me/6282147674761',
             'github'        => 'https://github.com/dhonstudio',
-            'instagram'     => 'https://instagram.com/dhonstudio',
-            'address'       => '',
-            'telegramgroup' => '',
-            'telegram'      => '',
+            'instagram'     => 'https://instagram.com/sekolaheksporimpor.id',
+            'address'       => 'Jakarta Timur, Indonesia',
+            'telegramgroup' => 'https://t.me/sekolaheksporimp',
+            'telegram'      => 'https://t.me/channelSEI',
+
+            'reguler_course_fee'            => 'IDR 7.000 K',
+            'reguler_course_fee_promo'      => 'IDR 3.500 K',
+            'reguler_course_fee_rp'         => 'Rp 7.000.000,-',
+            'reguler_course_fee_promo_rp'   => 'Rp 3.500.000,-',
+            'batch'         => 'AGUSTUS - OKTOBER 2022',
+            'batch_open'    => '1 Juli 2022',
+            'batch_close'   => '5 Agustus 2022',
+            'batch_start'   => ['Agustus', '6'],
 
             'css'   => '
                 <link href="https://fonts.googleapis.com/css?family=Poppins:100,200,300,400,500,600,700,800,900" rel="stylesheet">

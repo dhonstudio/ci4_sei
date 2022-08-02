@@ -7,17 +7,17 @@
                     <p>
                         <i class="fas fa-map-marker-alt"></i> Jakarta Timur, DKI, Indonesia 13430
                         &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-                        <i class="far fa-clock marginl-3"></i> Sabtu, 08.30 - 15.30
+                        <i class="far fa-clock marginl-3"></i> Sabtu, 08.00 - 15.15
                     </p>
                 </div>
             </div>
             <div class="col-lg-4 col-sm-4">
                 <div class="right-icons">
                     <ul>
-                        <li><a href="https://instagram.com/<?= $instagram ?>" target="_blank"><i class="fa fa-instagram"></i></a></li>
-                        <li><a href="https://t.me/<?= $telegramgroup ?>" target="_blank"><i class="fab fa-telegram"></i></a></li>
+                        <li><a href="<?= $instagram ?>" target="_blank"><i class="fa fa-instagram"></i></a></li>
+                        <li><a href="<?= $telegramgroup ?>" target="_blank"><i class="fab fa-telegram"></i></a></li>
                         <li><a href="https://api.whatsapp.com/send/?phone=<?= $whatsapp ?>" target="_blank"><i class="fa fa-whatsapp"></i></a></li>
-                        <li><a href="https://t.me/<?= $telegram ?>" target="_blank"><i class="fab fa-telegram"></i></a></li>
+                        <li><a href="<?= $telegram ?>" target="_blank"><i class="fab fa-telegram"></i></a></li>
                     </ul>
                 </div>
             </div>
@@ -32,7 +32,7 @@ $topbar_menus = [
         'width'    => 250,
         'children'  => [
             [
-                'url'    => 'courses/index/reguler',
+                'url'    => 'courses/reguler',
                 'title'    => 'KELAS REGULER'
             ],
             [
