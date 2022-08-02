@@ -24,4 +24,9 @@ class Home extends BaseController
     {
         return view('course/reguler', $this->data);
     }
+
+    public function course_inhouse()
+    {
+        return view('course/inhouse', $this->data);
+    }
 }

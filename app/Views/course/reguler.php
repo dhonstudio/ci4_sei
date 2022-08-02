@@ -32,7 +32,7 @@
                                 <div class="date">
                                     <h6><?= $batch_start[0] ?> <span><?= $batch_start[1] ?></span></h6>
                                 </div>
-                                <a href="meeting-details.html"><img src="<?= base_url('assets/templatemo_edu_meeting/') ?>assets/images/single-meeting.jpg" alt=""></a>
+                                <a href="#"><img src="<?= $assets . 'vendor/templatemo_edu_meeting/' ?>assets/images/single-meeting.jpg" alt=""></a>
                             </div>
                             <div class="down-content">
                                 <ul class="nav nav-pills mb-3 mt-4" id="pills-tab" role="tablist">
@@ -166,23 +166,23 @@
                                         <ol>
                                             <li>
                                                 <b>MASA PENDAFTARAN</b><br>
-                                                <text style="text-align: justify;">Pendaftaran dibuka tanggal <?= $batch_open ?> dan akan ditutup pada tanggal <?= $batch_close ?>.
-                                                    Peserta dapat mendaftarkan diri dengan cara mengisi Formulir Pendaftaran Online dan langsung melakukan Transaksi Pembayaran Online melalui website SEI ini.</text>
+                                                <p style="text-align: justify;">Pendaftaran dibuka tanggal <?= $batch_open ?> dan akan ditutup pada tanggal <?= $batch_close ?>.
+                                                    Peserta dapat mendaftarkan diri dengan cara mengisi Formulir Pendaftaran Online dan langsung melakukan Transaksi Pembayaran Online melalui website SEI ini.</p>
                                             </li>
                                             <br>
                                             <li>
                                                 <b>MATERI DIKLAT</b><br>
-                                                <text style="text-align: justify;">Materi Diklat berupa soft copy, video pembelajaran, Quiz dan Try Out akan diberikan pada sesi pertemuan.</text>
+                                                <p style="text-align: justify;">Materi Diklat berupa soft copy, video pembelajaran, Quiz dan Try Out akan diberikan pada sesi pertemuan.</p>
                                             </li>
                                             <br>
                                             <li>
                                                 <b>SERTIFIKAT KEIKUTSERTAAN (<i>CERTIFICATE OF ATTENDANCE</i>)</b><br>
-                                                <text style="text-align: justify;">Sertifikat Keikutsertaan Diklat akan diberikan kepada setiap Peserta setelah periode Diklat berakhir.</text>
+                                                <p style="text-align: justify;">Sertifikat Keikutsertaan Diklat akan diberikan kepada setiap Peserta setelah periode Diklat berakhir.</p>
                                             </li>
                                             <br>
                                             <li>
                                                 <b>JAMINAN UANG KEMBALI</b><br>
-                                                <text style="text-align: justify;">Peserta Diklat yang belum lulus Ujian Nasional Sertifikasi Ahli Kepabeanan yang diselenggarakan oleh Badan Pendidikan dan Pelatihan Keuangan (BPPK) Kementerian Keuangan Republik Indonesia, berhak atas pengembalian uang sebesar Rp 1.000.000,- dengan syarat:</text>
+                                                <p style="text-align: justify;">Peserta Diklat yang belum lulus Ujian Nasional Sertifikasi Ahli Kepabeanan yang diselenggarakan oleh Badan Pendidikan dan Pelatihan Keuangan (BPPK) Kementerian Keuangan Republik Indonesia, berhak atas pengembalian uang sebesar Rp 1.000.000,- dengan syarat:</p>
                                                 <ol class="ps-4">
                                                     <li>Terdapat Bukti mengikuti Ujian,</li>
                                                     <li>Kehadiran minimal 90%, dan</li>
@@ -192,28 +192,28 @@
                                             <br>
                                             <li>
                                                 <b>BIAYA PELATIHAN</b><br>
-                                                <text style="text-align: justify;">Biaya Diklat Ahli Kepabeanan PPJK Kelas Offline Eksekutif adalah <text style="text-decoration:line-through"><?= $reguler_course_fee_rp ?></text> <?= $reguler_course_fee_promo_rp ?> / peserta. Biaya ini belum termasuk Biaya Ujian Sertifikasi Ahli Kepabeanan oleh Pusdiklat Bea Cukai.</text>
+                                                <p style="text-align: justify;">Biaya Diklat Ahli Kepabeanan PPJK Kelas Offline Eksekutif adalah <text style="text-decoration:line-through"><?= $reguler_course_fee_rp ?></text> <?= $reguler_course_fee_promo_rp ?> / peserta. Biaya ini belum termasuk Biaya Ujian Sertifikasi Ahli Kepabeanan oleh Pusdiklat Bea Cukai.</p>
                                             </li>
                                             <br>
                                             <li>
                                                 <b>PEMBAYARAN SECARA ANGSURAN (CICILAN)</b><br>
-                                                <text style="text-align: justify;">
+                                                <p style="text-align: justify;">
                                                     Pembayaran Biaya Diklat dapat diangsur (dicicil), dengan termin pembayaran sebagai berikut:
-                                                    <ol type="a" class="ps-4">
-                                                        <li>Pembayaran Pertama: Uang Muka sebesar 50% sebelum Diklat dimulai.</li>
-                                                        <li>Pembayaran Kedua: Pelunasan sebesar 50% setelah 3 sesi pertemuan Diklat dimulai.</li>
-                                                    </ol>
-                                                </text>
+                                                <ol type="a" class="ps-4">
+                                                    <li>Pembayaran Pertama: Uang Muka sebesar 50% sebelum Diklat dimulai.</li>
+                                                    <li>Pembayaran Kedua: Pelunasan sebesar 50% setelah 3 sesi pertemuan Diklat dimulai.</li>
+                                                </ol>
+                                                </p>
                                             </li>
                                             <br>
                                             <li>
                                                 <b>METODE PEMBAYARAN</b><br>
-                                                <text style="text-align: justify;">
+                                                <p style="text-align: justify;">
                                                     Transfer Bank.
                                                     <br>
                                                     Jangan lupa untuk melakukan Konfirmasi Pembayaran setelah transfer.
                                                     <br>BRI, Nomer Rekening: 125601000128563, Atas Nama: Surya Eka Internusa
-                                                </text>
+                                                </p>
                                             </li>
                                         </ol>
                                     </div>

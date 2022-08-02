@@ -110,7 +110,7 @@
                         <li><a href="#">Sistem Nilai Pabean</a></li>
                     </ul>
                     <div class="main-button-red">
-                        <a href="meetings.html">Lihat Seluruh Kurikulum</a>
+                        <a href="<?= base_url('courses/reguler') ?>">Lihat Seluruh Kurikulum</a>
                     </div>
                 </div>
             </div>
@@ -133,7 +133,7 @@
                                 </div>
                                 <br>
                                 <a href="<?= base_url('courses/reguler') ?>">
-                                    <h4>Kelas Reguler (1 Bulan)</h4>
+                                    <h4>Kelas Reguler (2 Bulan)</h4>
                                 </a>
                                 <p>Kelas Persiapan Ahli Kepabeanan.</p>
                             </div>
@@ -145,14 +145,14 @@
                                 <div class="price">
                                     <span>Kontak Kami</span>
                                 </div>
-                                <a href="meeting-details.html"><img src="<?= $assets . 'vendor/templatemo_edu_meeting/' ?>assets/images/meeting-02.jpg" alt="Online Teaching"></a>
+                                <a href="<?= base_url('courses/inhouse') ?>"><img src="<?= $assets . 'vendor/templatemo_edu_meeting/' ?>assets/images/meeting-02.jpg" alt="Online Teaching"></a>
                             </div>
                             <div class="down-content">
                                 <div class="date">
                                     <h6>Jadwal Tertentu <span></span></h6>
                                 </div>
                                 <br>
-                                <a href="meeting-details.html">
+                                <a href="<?= base_url('courses/inhouse') ?>">
                                     <h4>Inhouse Training</h4>
                                 </a>
                                 <p>Kelas Spesialisasi Perusahaan.</p>

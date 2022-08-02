@@ -36,7 +36,7 @@ $topbar_menus = [
                 'title'    => 'KELAS REGULER'
             ],
             [
-                'url'    => 'courses/index/inhouse',
+                'url'    => 'courses/inhouse',
                 'title'    => 'INHOUSE TRAINING'
             ],
         ],
