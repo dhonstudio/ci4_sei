@@ -115,7 +115,7 @@ abstract class BaseController extends Controller
         ]);
 
         $this->data = [
-            'lang'      => null, // default is `en`
+            'lang'      => 'id', // default is `en`
             'meta'      => [
                 'keywords'      => 'sekolah ekspor impor, sei, dhon studio, dhonstudio, dhonstudio.com',
                 'author'        => 'TemplateMo',
