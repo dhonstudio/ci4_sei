@@ -60,6 +60,10 @@ $topbar_menus = [
         'url'    => '#contact'
     ],
     [
+        'title' => 'BLOG',
+        'url'    => 'blog'
+    ],
+    [
         'title'    => 'MASUK',
         'width'    => 200,
         'children'  => [

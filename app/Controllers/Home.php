@@ -29,4 +29,9 @@ class Home extends BaseController
     {
         return view('course/inhouse', $this->data);
     }
+
+    public function blog()
+    {
+        return redirect()->to("https://blog.sekolaheksporimpor.id");
+    }
 }

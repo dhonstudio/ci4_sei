@@ -38,6 +38,7 @@ $routes->set404Override();
 $routes->get('/', 'Home::index');
 $routes->get('/courses/reguler', 'Home::course_reguler');
 $routes->get('/courses/inhouse', 'Home::course_inhouse');
+$routes->get('/blog', 'Home::blog');
 
 /*
  * --------------------------------------------------------------------
