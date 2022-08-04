@@ -219,7 +219,8 @@
                                     </div>
 
                                     <div class="tab-pane fade" id="pills-registration" role="tabpanel" aria-labelledby="pills-registration-tab">
-                                        <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#registerModal">DAFTAR SEKARANG</button>
+                                        <!-- <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#registerModal">DAFTAR SEKARANG</button> -->
+                                        <a href="https://api.whatsapp.com/send/?phone=<?= $whatsapp ?>" target="_blank" class="btn btn-primary">DAFTAR SEKARANG</a>
                                     </div>
                                 </div>
 

@@ -19,7 +19,7 @@
                         <h2>Ahli Kepabeanan</h2>
                         <p>Pelatihan Ahli Kepabeanan Sekolah Ekspor Impor disertai pembahasan materi ekspor impor, tugas, latihan soal yang dinilai secara otomatis dan ditinjau oleh tim pengajar, webinar, dan forum diskusi tanya jawab masalah Ekspor, Impor dan Kepabeanan.</p>
                         <div class="main-button-red">
-                            <div class="scroll-to-section"><a href="#contact">Daftar Sekarang</a></div>
+                            <a href="https://api.whatsapp.com/send/?phone=<?= $whatsapp ?>" target="_blank">Daftar Sekarang</a>
                         </div>
                     </div>
                 </div>

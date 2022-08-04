@@ -72,7 +72,7 @@ $topbar_menus = [
                 'title'    => 'MASUK'
             ],
             [
-                'url'    => '#teacher',
+                'link'    => 'https://api.whatsapp.com/send/?phone=' . $whatsapp,
                 'title'    => 'DAFTAR'
             ],
         ],
@@ -100,7 +100,7 @@ $topbar_menus = [
                                     <a href="javascript:void(0)"><?= $tm['title'] ?></a>
                                     <ul class="sub-menu">
                                         <?php foreach ($tm['children'] as $key => $c) : ?>
-                                            <li><a href="<?= base_url($c['url']) ?>"><?= $c['title'] ?></a></li>
+                                            <li><a href="<?= isset($c['url']) ? base_url($c['url']) : $c['link'] ?>"><?= $c['title'] ?></a></li>
                                         <?php endforeach ?>
                                     </ul>
                                 </li>
