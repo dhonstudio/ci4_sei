@@ -61,7 +61,7 @@ $topbar_menus = [
     ],
     [
         'title' => 'BLOG',
-        'url'    => 'blog'
+        'link'    => 'https://blog.sekolaheksporimpor.id'
     ],
     [
         'title'    => 'MASUK',
@@ -105,7 +105,7 @@ $topbar_menus = [
                                     </ul>
                                 </li>
                             <?php else : ?>
-                                <li><a href="<?= base_url($tm['url']) ?>"><?= $tm['title'] ?></a></li>
+                                <li><a href="<?= isset($tm['url']) ? base_url($tm['url']) : $tm['link'] ?>"><?= $tm['title'] ?></a></li>
                             <?php endif ?>
                         <?php endforeach ?>
                     </ul>
