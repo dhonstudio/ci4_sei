@@ -120,10 +120,10 @@ abstract class BaseController extends Controller
                 'keywords'      => 'sekolah ekspor impor, sei, dhon studio, dhonstudio, dhonstudio.com',
                 'author'        => 'TemplateMo',
                 'generator'     => null,
-                'ogimage'       => $this->assets . 'sei/img/ogimg.jpg',
+                'ogimage'       => $this->assets . 'sei/img/LOGO SEKOLAH EKSPOR IMPOR biru tua.jpg',
                 'description'   => 'Sekolah Ekspor Impor adalah Platform Pendidikan dan Pelatihan peraturan dan prosedur Impor, Ekspor, Logistik, dan Kepabeanan di Indonesia. Menyelenggarakan Training Persiapan Ujian Negara Ahli Kepabeanan dan Webinar. Sejak tahun 2021 senantiasa memberikan yang terbaik dengan mengedepankan kualitas layanan dan kepuasan para peserta dan pengguna layanan.',
             ],
-            'favicon'   => $this->assets . "sei/img/ogimg.jpg",
+            'favicon'   => $this->assets . "sei/img/Icon.png",
             'title'     => 'Sekolah Ekspor Impor', // default is `Home`
 
             'email'         => 'admin@sekolaheksporimpor.id',

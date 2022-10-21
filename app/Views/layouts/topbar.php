@@ -80,6 +80,16 @@ $topbar_menus = [
 ]
 ?>
 
+<style>
+    .background-header {
+        background-color: #181a33 !important;
+    }
+
+    .background-header .main-nav .nav li a {
+        color: #fff !important;
+    }
+</style>
+
 <!-- ***** Header Area Start ***** -->
 <header class="header-area header-sticky">
     <div class="container">
@@ -88,7 +98,7 @@ $topbar_menus = [
                 <nav class="main-nav">
                     <!-- ***** Logo Start ***** -->
                     <a href="index.html" class="logo">
-                        <img src="<?= $assets . 'sei/img/new_logo.png' ?>" alt="Logo SEI" style="width: 82px;">
+                        <img src="<?= $assets . 'sei/img/Logo fix.png' ?>" alt="Logo SEI" style="width: 152px;">
                     </a>
                     <!-- ***** Logo End ***** -->
                     <!-- ***** Menu Start ***** -->
