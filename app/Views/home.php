@@ -179,6 +179,21 @@
     </div>
 </section>
 
+<style>
+    section.apply-now .item h3 {
+        margin-bottom: 0px;
+    }
+
+    section.apply-now .item h5 {
+        color: silver;
+    }
+
+    section.apply-now .item h6 {
+        color: lightslategrey;
+        margin-bottom: 20px;
+    }
+</style>
+
 <section class="apply-now" id="about">
     <div class="container">
         <div class="row">
@@ -194,6 +209,8 @@
                                     </div>
                                     <div class="col-8">
                                         <h3><?= $testimonials[$j]['name'] ?></h3>
+                                        <h5><?= $testimonials[$j]['jabatan'] ?></h5>
+                                        <h6><?= $testimonials[$j]['company'] ?></h6>
                                         <p><?= $testimonials[$j]['testimonial'] ?></p>
                                     </div>
                                 </div>
