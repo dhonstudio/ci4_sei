@@ -171,16 +171,17 @@
         <div class="row">
             <div class="col-lg-6 align-self-center">
                 <div class="row">
-                    <?php for ($i = 0; $i < 2; $i++) : ?>
+                    <?php for ($i = -5; $i < -2; $i++) : ?>
+                        <?php $j = 0 - $i; ?>
                         <div class="col-lg-12">
                             <div class="item">
                                 <div class="row">
                                     <div class="col-4">
-                                        <img src="<?= $assets . 'sei/img/testimonial_photos/' . $testimonials[$i]['photo'] ?>" alt="<?= $testimonials[$i]['name'] ?>" style="width:82px" class="w3-circle w3-hover-opacity">
+                                        <img src="<?= $assets . 'sei/img/testimonial_photos/' . $testimonials[$j]['photo'] ?>" alt="<?= $testimonials[$j]['name'] ?>" style="width:82px" class="w3-circle w3-hover-opacity">
                                     </div>
                                     <div class="col-8">
-                                        <h3><?= $testimonials[$i]['name'] ?></h3>
-                                        <p><?= $testimonials[$i]['testimonial'] ?></p>
+                                        <h3><?= $testimonials[$j]['name'] ?></h3>
+                                        <p><?= $testimonials[$j]['testimonial'] ?></p>
                                     </div>
                                 </div>
 

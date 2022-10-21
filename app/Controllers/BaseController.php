@@ -176,7 +176,7 @@ abstract class BaseController extends Controller
             $this->dhonhit = new DhonHit();
 
             $this->dhonhit->dhonrequest = $this->dhonrequest;
-            $this->dhonhit->collect();
+            // $this->dhonhit->collect();
         }
     }
 
