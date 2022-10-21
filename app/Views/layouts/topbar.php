@@ -97,7 +97,7 @@ $topbar_menus = [
             <div class="col-12">
                 <nav class="main-nav">
                     <!-- ***** Logo Start ***** -->
-                    <a href="index.html" class="logo">
+                    <a href="<?= base_url() ?>" class="logo">
                         <img src="<?= $assets . 'sei/img/Logo fix.png' ?>" alt="Logo SEI" style="width: 152px;">
                     </a>
                     <!-- ***** Logo End ***** -->
