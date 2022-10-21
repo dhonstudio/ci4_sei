@@ -18,6 +18,14 @@
                         <h6>Lembaga Pendidikan dan Pelatihan</h6>
                         <h2>Ahli Kepabeanan</h2>
                         <p>Pelatihan Ahli Kepabeanan Sekolah Ekspor Impor disertai pembahasan materi ekspor impor, tugas, latihan soal yang dinilai secara otomatis dan ditinjau oleh tim pengajar, webinar, dan forum diskusi tanya jawab masalah Ekspor, Impor dan Kepabeanan.</p>
+
+                        <style>
+                            .main-button-red a {
+                                background-color: #fbcb0f;
+                                color: #000;
+                            }
+                        </style>
+
                         <div class="main-button-red">
                             <a href="https://api.whatsapp.com/send/?phone=<?= $whatsapp ?>" target="_blank">Daftar Sekarang</a>
                         </div>
@@ -33,6 +41,11 @@
     <div class="container">
         <div class="row">
             <div class="col-lg-12">
+                <style>
+                    .services .item {
+                        background-image: url(http://localhost/assets/sei/img/Rectangle_16.png);
+                    }
+                </style>
                 <div class="owl-service-item owl-carousel">
 
                     <div class="item">
@@ -169,7 +182,7 @@
 <section class="apply-now" id="about">
     <div class="container">
         <div class="row">
-            <div class="col-lg-6 align-self-center">
+            <div class="col-lg-12 align-self-center">
                 <div class="row">
                     <?php for ($i = -5; $i < -2; $i++) : ?>
                         <?php $j = 0 - $i; ?>
@@ -190,7 +203,7 @@
                     <?php endfor ?>
                 </div>
             </div>
-            <div class="col-lg-6">
+            <!-- <div class="col-lg-6">
                 <div class="accordions is-first-expanded">
                     <article class="accordion">
                         <div class="accordion-head">
@@ -245,7 +258,7 @@
                         </div>
                     </article>
                 </div>
-            </div>
+            </div> -->
         </div>
     </div>
 </section>
@@ -395,6 +408,12 @@ $pengajar = [
                                         <textarea name="message" type="text" class="form-control" id="message" placeholder="PESAN..." required=""></textarea>
                                     </fieldset>
                                 </div>
+
+                                <style>
+                                    section.contact-us #contact button {
+                                        background-color: #181a33;
+                                    }
+                                </style>
                                 <div class="col-lg-12">
                                     <fieldset>
                                         <button type="submit" id="form-submit" class="button">KIRIM</button>
@@ -405,6 +424,13 @@ $pengajar = [
                     </div>
                 </div>
             </div>
+
+            <style>
+                section.contact-us .right-info {
+                    background-color: #181a33;
+                }
+            </style>
+
             <div class="col-lg-4">
                 <div class="right-info">
                     <ul>
