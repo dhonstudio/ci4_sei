@@ -9,7 +9,7 @@
         <div class="row">
             <div class="col-lg-12">
                 <h6>Sekolah Ekspor Impor</h6>
-                <h2>Kelas Reguler</h2>
+                <h2>Basic Class</h2>
             </div>
         </div>
     </div>
@@ -25,7 +25,7 @@
                             <div class="thumb">
                                 <div class="price">
                                     <span>
-                                        <text style="text-decoration:line-through;margin-right: 10px;"><?= $reguler_course_fee ?></text><br>
+                                        <!-- <text style="text-decoration:line-through;margin-right: 10px;"><?= $reguler_course_fee ?></text><br> -->
                                         <text style="margin-left: 10px;"><?= $reguler_course_fee_promo ?></text>
                                     </span>
                                 </div>
@@ -52,7 +52,7 @@
                                 <div class="tab-content" id="pills-tabContent">
                                     <div class="tab-pane fade show active" id="pills-description" role="tabpanel" aria-labelledby="pills-description-tab">
                                         <h4>Diklat Ahli Kepabeanan PPJK</h4>
-                                        <p>KELAS <text style="color:orange">REGULER</text></p>
+                                        <p>KELAS <text style="color:orange">BASIC</text></p>
                                         <p>PERIODE <text style="color:orange"><?= $batch ?></text></p>
                                         <br>
                                         <br>
@@ -70,7 +70,7 @@
                                         <br>
                                         <h5>ZOOM MEETING</h5>
                                         <hr>
-                                        <p style="text-align: justify;">Kami menggunakan Zoom Meeting untuk Kelas Reguler. Metode belajar jarak jauh “distance learning” interaktif dimana para peserta dan pengajar tidak bertatap muka langsung secara fisik.</p>
+                                        <p style="text-align: justify;">Kami menggunakan Zoom Meeting untuk Basic Class. Metode belajar jarak jauh “distance learning” interaktif dimana para peserta dan pengajar tidak bertatap muka langsung secara fisik.</p>
                                         <br>
                                         <p style="text-align: justify;">Materi Kurikulum Kelas Online Zoom Meeting sama identik dengan Kelas Offline Eksekutif. Begitu pula dengan jadwal pelatihan, tidak berbeda. Para peserta wajib menggunakan akun Zoom yang terdaftar pada website ini.</p>
                                         <br>
@@ -111,7 +111,10 @@
                                                     <li>Melampirkan salinan asli KTP dan Ijasah Terakhir.</li>
                                                     <li>Melampirkan pas foto 4×6 terbaru.</li>
                                                     <li>Melampirkan Surat Tugas dari Perusahaan ( jika dibiayai oleh perusahaan )</li>
-                                                    <li>Membayar Biaya Diklat <text style="text-decoration:line-through"><?= $reguler_course_fee_rp ?></text> <?= $reguler_course_fee_promo_rp ?></li>
+                                                    <li>Membayar Biaya Diklat
+                                                        <!-- <text style="text-decoration:line-through"><?= $reguler_course_fee_rp ?></text>  -->
+                                                        <?= $reguler_course_fee_promo_rp ?>
+                                                    </li>
                                                 </ol>
                                                 </p>
                                             </div>
@@ -130,7 +133,7 @@
                                             <li>150++ jam Video Pembelajaran. Materi Training Ahli Kepabeanan PPJK.</li>
                                             <li>1.000++ Soal Latihan Pilihan Ganda via Aplikasi Classmaker dan Quizziz.</li>
                                             <li>200++ Contoh Soal Ujian Essay dan Pilihan Ganda Ahli Kepabeanan PPJK Terdahulu beserta Pembahasan.</li>
-                                            <li>Jaminan Uang Kembali Senilai Rp 1.000.000,- bagi para peserta yang belum lulus Ujian Nasional Sertifikasi Ahli Kepabeanan.</li>
+                                            <!-- <li>Jaminan Uang Kembali Senilai Rp 1.000.000,- bagi para peserta yang belum lulus Ujian Nasional Sertifikasi Ahli Kepabeanan.</li> -->
                                         </ol>
                                         </p>
                                     </div>
@@ -158,7 +161,7 @@
                                     </div>
 
                                     <div class="tab-pane fade" id="pills-announcement" role="tabpanel" aria-labelledby="pills-announcement-tab">
-                                        <h4>Pendaftaran Peserta Kelas Reguler</h4>
+                                        <h4>Pendaftaran Peserta Basic Class</h4>
                                         <br>
                                         <h5>Diklat Ahli Kepabeanan PPJK, Periode: <text style="color:orange"><?= $batch ?></text></h5>
                                         <br>
@@ -180,7 +183,7 @@
                                                 <p style="text-align: justify;">Sertifikat Keikutsertaan Diklat akan diberikan kepada setiap Peserta setelah periode Diklat berakhir.</p>
                                             </li>
                                             <br>
-                                            <li>
+                                            <!-- <li>
                                                 <b>JAMINAN UANG KEMBALI</b><br>
                                                 <p style="text-align: justify;">Peserta Diklat yang belum lulus Ujian Nasional Sertifikasi Ahli Kepabeanan yang diselenggarakan oleh Badan Pendidikan dan Pelatihan Keuangan (BPPK) Kementerian Keuangan Republik Indonesia, berhak atas pengembalian uang sebesar Rp 1.000.000,- dengan syarat:</p>
                                                 <ol class="ps-4">
@@ -189,10 +192,13 @@
                                                     <li>Lulus Try Out 3 kali.</li>
                                                 </ol>
                                             </li>
-                                            <br>
+                                            <br> -->
                                             <li>
                                                 <b>BIAYA PELATIHAN</b><br>
-                                                <p style="text-align: justify;">Biaya Diklat Ahli Kepabeanan PPJK Kelas Offline Eksekutif adalah <text style="text-decoration:line-through"><?= $reguler_course_fee_rp ?></text> <?= $reguler_course_fee_promo_rp ?> / peserta. Biaya ini belum termasuk Biaya Ujian Sertifikasi Ahli Kepabeanan oleh Pusdiklat Bea Cukai.</p>
+                                                <p style="text-align: justify;">Biaya Diklat Ahli Kepabeanan PPJK Kelas Offline Eksekutif adalah
+                                                    <!-- <text style="text-decoration:line-through"><?= $reguler_course_fee_rp ?></text>  -->
+                                                    <?= $reguler_course_fee_promo_rp ?> / peserta. Biaya ini belum termasuk Biaya Ujian Sertifikasi Ahli Kepabeanan oleh Pusdiklat Bea Cukai.
+                                                </p>
                                             </li>
                                             <br>
                                             <li>

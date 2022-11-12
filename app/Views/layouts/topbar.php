@@ -33,7 +33,7 @@ $topbar_menus = [
         'children'  => [
             [
                 'url'    => 'courses/reguler',
-                'title'    => 'KELAS REGULER'
+                'title'    => 'BASIC CLASS'
             ],
             [
                 'url'    => 'courses/inhouse',

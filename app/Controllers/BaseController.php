@@ -137,13 +137,13 @@ abstract class BaseController extends Controller
             'telegram'      => 'https://t.me/channelSEI',
 
             'reguler_course_fee'            => 'IDR 7.000 K',
-            'reguler_course_fee_promo'      => 'IDR 3.500 K',
+            'reguler_course_fee_promo'      => 'IDR 1.750 K',
             'reguler_course_fee_rp'         => 'Rp 7.000.000,-',
-            'reguler_course_fee_promo_rp'   => 'Rp 3.500.000,-',
-            'batch'         => 'AGUSTUS - OKTOBER 2022',
-            'batch_open'    => '1 Juli 2022',
-            'batch_close'   => '5 Agustus 2022',
-            'batch_start'   => ['Agustus', '6'],
+            'reguler_course_fee_promo_rp'   => 'Rp 1.750.000,-',
+            'batch'         => 'DESEMBER 2022 - FEBRUARI 2023',
+            'batch_open'    => '1 Oktober 2022',
+            'batch_close'   => '3 Desember 2022',
+            'batch_start'   => ['Desember', '3'],
 
             'css'   => '
                 <link href="https://fonts.googleapis.com/css?family=Poppins:100,200,300,400,500,600,700,800,900" rel="stylesheet">

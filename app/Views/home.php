@@ -134,7 +134,7 @@
                             <div class="thumb">
                                 <div class="price">
                                     <span>
-                                        <text style="text-decoration:line-through;margin-right: 10px;"><?= $reguler_course_fee ?></text><br>
+                                        <!-- <text style="text-decoration:line-through;margin-right: 10px;"><?= $reguler_course_fee ?></text><br> -->
                                         <text style="margin-left: 10px;"><?= $reguler_course_fee_promo ?></text>
                                     </span>
                                 </div>
@@ -146,7 +146,7 @@
                                 </div>
                                 <br>
                                 <a href="<?= base_url('courses/reguler') ?>">
-                                    <h4>Kelas Reguler (2 Bulan)</h4>
+                                    <h4>Basic Class (4 Sesi)</h4>
                                 </a>
                                 <p>Kelas Persiapan Ahli Kepabeanan.</p>
                             </div>
