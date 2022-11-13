@@ -36,6 +36,10 @@ $topbar_menus = [
                 'title'    => 'BASIC CLASS'
             ],
             [
+                'url'    => 'courses/expert',
+                'title'    => 'EXPERT CLASS'
+            ],
+            [
                 'url'    => 'courses/inhouse',
                 'title'    => 'INHOUSE TRAINING'
             ],

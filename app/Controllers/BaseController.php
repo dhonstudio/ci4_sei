@@ -138,6 +138,7 @@ abstract class BaseController extends Controller
 
             'reguler_course_fee'            => 'IDR 7.000 K',
             'reguler_course_fee_promo'      => 'IDR 1.750 K',
+            'expert_course_fee_promo'       => 'IDR 3.000 K',
             'reguler_course_fee_rp'         => 'Rp 7.000.000,-',
             'reguler_course_fee_promo_rp'   => 'Rp 1.750.000,-',
             'batch'         => 'DESEMBER 2022 - FEBRUARI 2023',

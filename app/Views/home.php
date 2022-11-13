@@ -156,6 +156,30 @@
                         <div class="meeting-item">
                             <div class="thumb">
                                 <div class="price">
+                                    <span>
+                                        <text style="margin-left: 10px;"><?= $expert_course_fee_promo ?></text>
+                                    </span>
+                                </div>
+                                <a href="<?= base_url('courses/expert') ?>"><img src="<?= $assets . 'vendor/templatemo_edu_meeting/' ?>assets/images/meeting-04.jpg" alt="Online Teaching"></a>
+                            </div>
+                            <div class="down-content">
+                                <div class="date">
+                                    <h6>Sabtu <span></span></h6>
+                                </div>
+                                <br>
+                                <a href="<?= base_url('courses/expert') ?>">
+                                    <h4>Expert Class (7 Sesi)</h4>
+                                </a>
+                                <p>Kelas Persiapan Ahli Kepabeanan.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-lg-6">
+                        <div class="meeting-item">
+                            <div class="thumb">
+                                <div class="price">
                                     <span>Kontak Kami</span>
                                 </div>
                                 <a href="<?= base_url('courses/inhouse') ?>"><img src="<?= $assets . 'vendor/templatemo_edu_meeting/' ?>assets/images/meeting-02.jpg" alt="Online Teaching"></a>
@@ -172,7 +196,6 @@
                             </div>
                         </div>
                     </div>
-
                 </div>
             </div>
         </div>

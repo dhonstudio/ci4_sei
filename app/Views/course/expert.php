@@ -9,7 +9,7 @@
         <div class="row">
             <div class="col-lg-12">
                 <h6>Sekolah Ekspor Impor</h6>
-                <h2>Basic Class</h2>
+                <h2>Expert Class</h2>
             </div>
         </div>
     </div>
@@ -26,13 +26,13 @@
                                 <div class="price">
                                     <span>
                                         <!-- <text style="text-decoration:line-through;margin-right: 10px;"><?= $reguler_course_fee ?></text><br> -->
-                                        <text style="margin-left: 10px;"><?= $reguler_course_fee_promo ?></text>
+                                        <text style="margin-left: 10px;"><?= $expert_course_fee_promo ?></text>
                                     </span>
                                 </div>
                                 <div class="date">
                                     <h6><?= $batch_start[0] ?> <span><?= $batch_start[1] ?></span></h6>
                                 </div>
-                                <a href="#"><img src="<?= $assets . 'vendor/templatemo_edu_meeting/' ?>assets/images/single-meeting.jpg" alt=""></a>
+                                <!-- <a href="#"><img src="<?= $assets . 'vendor/templatemo_edu_meeting/' ?>assets/images/single-meeting.jpg" alt=""></a> -->
                             </div>
                             <div class="down-content">
                                 <ul class="nav nav-pills mb-3 mt-4" id="pills-tab" role="tablist">
@@ -52,7 +52,7 @@
                                 <div class="tab-content" id="pills-tabContent">
                                     <div class="tab-pane fade show active" id="pills-description" role="tabpanel" aria-labelledby="pills-description-tab">
                                         <h4>Diklat Ahli Kepabeanan PPJK</h4>
-                                        <p>KELAS <text style="color:orange">BASIC</text></p>
+                                        <p>KELAS <text style="color:orange">EXPERT</text></p>
                                         <p>PERIODE <text style="color:orange"><?= $batch ?></text></p>
                                         <br>
                                         <br>
@@ -106,15 +106,11 @@
                                                 <hr>
                                                 <p style="text-align: justify;">
                                                 <ol>
-                                                    <li>Usia minimal 18 tahun.</li>
-                                                    <li>Minimal lulusan SMA/SMU atau sederajat.</li>
-                                                    <li>Melampirkan salinan asli KTP dan Ijasah Terakhir.</li>
-                                                    <li>Melampirkan pas foto 4×6 terbaru.</li>
-                                                    <li>Melampirkan Surat Tugas dari Perusahaan ( jika dibiayai oleh perusahaan )</li>
-                                                    <li>Membayar Biaya Diklat
+                                                    <li>Membayar Biaya Pelatihan
                                                         <!-- <text style="text-decoration:line-through"><?= $reguler_course_fee_rp ?></text>  -->
                                                         <?= $reguler_course_fee_promo_rp ?>
                                                     </li>
+                                                    <li>Mengisi Formulir Pendaftaran</li>
                                                 </ol>
                                                 </p>
                                             </div>
@@ -126,13 +122,13 @@
                                         <hr>
                                         <p style="text-align: justify;">
                                         <ol>
-                                            <li>Materi Kurikulum Pelatihan Terkini dan Sistematis.</li>
+                                            <li>7 Sesi Kelas Online.</li>
+                                            <li>Ebook Panduan Materi.</li>
+                                            <li>Materi Presentasi.</li>
+                                            <li>Rekaman Kelas.</li>
+                                            <li>2 Sesi Tryout & Pembahasan.</li>
+                                            <li>Group WA Konsultasi.</li>
                                             <li>Pengajar yang Berpengalaman.</li>
-                                            <li>4x Pertemuan Online.</li>
-                                            <li>Sertifikat Keikutsertaan Diklat.</li>
-                                            <li>150++ jam Video Pembelajaran. Materi Training Ahli Kepabeanan PPJK.</li>
-                                            <li>1.000++ Soal Latihan Pilihan Ganda via Aplikasi Classmaker dan Quizziz.</li>
-                                            <li>200++ Contoh Soal Ujian Essay dan Pilihan Ganda Ahli Kepabeanan PPJK Terdahulu beserta Pembahasan.</li>
                                             <!-- <li>Jaminan Uang Kembali Senilai Rp 1.000.000,- bagi para peserta yang belum lulus Ujian Nasional Sertifikasi Ahli Kepabeanan.</li> -->
                                         </ol>
                                         </p>
