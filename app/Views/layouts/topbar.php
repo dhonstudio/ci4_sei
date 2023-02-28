@@ -32,16 +32,12 @@ $topbar_menus = [
         'width'    => 250,
         'children'  => [
             [
-                'url'    => 'courses/reguler',
-                'title'    => 'BASIC CLASS'
+                'url'    => 'courses/online',
+                'title'    => 'ONLINE CLASS'
             ],
             [
-                'url'    => 'courses/expert',
-                'title'    => 'EXPERT CLASS'
-            ],
-            [
-                'url'    => 'courses/inhouse',
-                'title'    => 'INHOUSE TRAINING'
+                'url'    => 'courses/offline',
+                'title'    => 'OFFLINE CLASS'
             ],
         ],
     ],

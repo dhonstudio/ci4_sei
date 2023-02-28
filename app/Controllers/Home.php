@@ -20,6 +20,16 @@ class Home extends BaseController
         return view('home', $this->data);
     }
 
+    public function course_online()
+    {
+        return view('course/online', $this->data);
+    }
+
+    public function course_offline()
+    {
+        return view('course/offline', $this->data);
+    }
+
     public function course_reguler()
     {
         return view('course/reguler', $this->data);

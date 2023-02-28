@@ -116,14 +116,14 @@
                 <div class="categories">
                     <h4>Kurikulum</h4>
                     <ul>
-                        <li><a href="#">International Trade</a></li>
                         <li><a href="#">UU Kepabeanan</a></li>
-                        <li><a href="#">Prosedur Impor</a></li>
-                        <li><a href="#">Prosedur Ekspor</a></li>
-                        <li><a href="#">Sistem Nilai Pabean</a></li>
+                        <li><a href="#">Tatalaksana Impor</a></li>
+                        <li><a href="#">Tatalaksana Ekspor</a></li>
+                        <li><a href="#">Fasilitas Kepabeanan</a></li>
+                        <li><a href="#">Fasilitas Kawasan</a></li>
                     </ul>
                     <div class="main-button-red">
-                        <a href="<?= base_url('courses/reguler') ?>">Lihat Seluruh Kurikulum</a>
+                        <a href="<?= base_url('courses/online') ?>">Lihat Seluruh Kurikulum</a>
                     </div>
                 </div>
             </div>
@@ -135,18 +135,18 @@
                                 <div class="price">
                                     <span>
                                         <!-- <text style="text-decoration:line-through;margin-right: 10px;"><?= $reguler_course_fee ?></text><br> -->
-                                        <text style="margin-left: 10px;"><?= $reguler_course_fee_promo ?></text>
+                                        <text style="margin-left: 10px;"><?= $online_course_fee_promo ?></text>
                                     </span>
                                 </div>
-                                <a href="<?= base_url('courses/reguler') ?>"><img src="<?= $assets . 'vendor/templatemo_edu_meeting/' ?>assets/images/meeting-01.jpg" alt="New Lecturer Meeting"></a>
+                                <a href="<?= base_url('courses/online') ?>"><img src="<?= $assets . 'vendor/templatemo_edu_meeting/' ?>assets/images/meeting-01.jpg" alt="New Lecturer Meeting"></a>
                             </div>
                             <div class="down-content">
                                 <div class="date">
                                     <h6>Sabtu <span></span></h6>
                                 </div>
                                 <br>
-                                <a href="<?= base_url('courses/reguler') ?>">
-                                    <h4>Basic Class (4 Sesi)</h4>
+                                <a href="<?= base_url('courses/online') ?>">
+                                    <h4>Online Class</h4>
                                 </a>
                                 <p>Kelas Persiapan Ahli Kepabeanan.</p>
                             </div>
@@ -157,25 +157,25 @@
                             <div class="thumb">
                                 <div class="price">
                                     <span>
-                                        <text style="margin-left: 10px;"><?= $expert_course_fee_promo ?></text>
+                                        <text style="margin-left: 10px;"><?= $offline_course_fee_promo ?></text>
                                     </span>
                                 </div>
-                                <a href="<?= base_url('courses/expert') ?>"><img src="<?= $assets . 'vendor/templatemo_edu_meeting/' ?>assets/images/meeting-04.jpg" alt="Online Teaching"></a>
+                                <a href="<?= base_url('courses/offline') ?>"><img src="<?= $assets . 'vendor/templatemo_edu_meeting/' ?>assets/images/meeting-04.jpg" alt="Online Teaching"></a>
                             </div>
                             <div class="down-content">
                                 <div class="date">
-                                    <h6>Sabtu <span></span></h6>
+                                    <h6>Minggu <span></span></h6>
                                 </div>
                                 <br>
-                                <a href="<?= base_url('courses/expert') ?>">
-                                    <h4>Expert Class (7 Sesi)</h4>
+                                <a href="<?= base_url('courses/offline') ?>">
+                                    <h4>Offline Class</h4>
                                 </a>
                                 <p>Kelas Persiapan Ahli Kepabeanan.</p>
                             </div>
                         </div>
                     </div>
                 </div>
-                <div class="row">
+                <!-- <div class="row">
                     <div class="col-lg-6">
                         <div class="meeting-item">
                             <div class="thumb">
@@ -196,7 +196,7 @@
                             </div>
                         </div>
                     </div>
-                </div>
+                </div> -->
             </div>
         </div>
     </div>

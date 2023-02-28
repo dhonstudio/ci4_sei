@@ -138,13 +138,17 @@ abstract class BaseController extends Controller
 
             'reguler_course_fee'            => 'IDR 7.000 K',
             'reguler_course_fee_promo'      => 'IDR 1.750 K',
+            'online_course_fee_promo'       => 'IDR 3.000 K',
+            'offline_course_fee_promo'      => 'IDR 6.800 K',
             'expert_course_fee_promo'       => 'IDR 3.000 K',
             'reguler_course_fee_rp'         => 'Rp 7.000.000,-',
             'reguler_course_fee_promo_rp'   => 'Rp 1.750.000,-',
-            'batch'         => 'DESEMBER 2022 - FEBRUARI 2023',
-            'batch_open'    => '1 Oktober 2022',
-            'batch_close'   => '3 Desember 2022',
-            'batch_start'   => ['Desember', '3'],
+            'online_course_fee_promo_rp'    => 'Rp 3.000.000,-',
+            'offline_course_fee_promo_rp'   => 'Rp 6.800.000,-',
+            'batch'         => '18 MARET - 10 JUNI 2023',
+            'batch_open'    => '28 Februari 2023',
+            'batch_close'   => '17 Maret 2023',
+            'batch_start'   => ['Maret', '18'],
 
             'css'   => '
                 <link href="https://fonts.googleapis.com/css?family=Poppins:100,200,300,400,500,600,700,800,900" rel="stylesheet">

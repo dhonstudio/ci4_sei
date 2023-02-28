@@ -36,6 +36,8 @@ $routes->set404Override();
 // We get a performance increase by specifying the default
 // route since we don't have to scan directories.
 $routes->get('/', 'Home::index');
+$routes->get('/courses/online', 'Home::course_online');
+$routes->get('/courses/offline', 'Home::course_offline');
 $routes->get('/courses/reguler', 'Home::course_reguler');
 $routes->get('/courses/expert', 'Home::course_expert');
 $routes->get('/courses/inhouse', 'Home::course_inhouse');
