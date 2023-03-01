@@ -222,7 +222,7 @@
         <div class="row">
             <div class="col-lg-12 align-self-center">
                 <div class="row">
-                    <?php for ($i = -5; $i < -2; $i++) : ?>
+                    <?php for ($i = -6; $i < -2; $i++) : ?>
                         <?php $j = 0 - $i; ?>
                         <div class="col-lg-12">
                             <div class="item">
